@@ -9,6 +9,8 @@ while row < src.count do
     if row[element] % 2 == 0
       puts row[element]
     end
+    element += 1
   end
+  row += 1
 end
 end
