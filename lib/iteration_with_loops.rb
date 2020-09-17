@@ -6,7 +6,7 @@ row = 0
 while row < src.count do
   element = 0
   while element < row[element].count do
-    if row[element] % 2 = 0
+    if row[element] % 2 == 0
       puts row[element]
     end
   end
