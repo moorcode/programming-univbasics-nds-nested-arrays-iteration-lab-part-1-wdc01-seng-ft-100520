@@ -7,7 +7,7 @@ def find_even_values(src)
     element = 0
     while element < src[element].count do
       if src[row][element] % 2 == 0
-        puts src[row][element]
+        p src[row][element]
       end
       element += 1
     end
